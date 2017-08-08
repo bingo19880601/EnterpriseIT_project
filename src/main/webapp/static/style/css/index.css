@@ -1,0 +1,104 @@
+
+.box-content{
+    color:#fff;
+    height:600px;
+    width:1680px;
+    background-image: url(../images/background.jpg);
+    margin:0 auto;
+    background-color: antiquewhite;
+}
+.headerBar{
+    border-bottom: 0.5px solid #fff;
+    margin:0 auto;
+    height:35px;
+}
+.fgtPwd{
+    float:right;
+    margin-right:20px;
+    line-height: 20px;
+}
+.adminEntrance{
+    float:right;
+    margin-right:20px;
+    line-height: 20px;
+}
+.content{
+    height:680px;
+}
+.title{
+    height: 100px;
+    margin-bottom: 100px;
+}
+.title h1{
+    letter-spacing:10px;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.transparent{
+    background-color: #fff;
+    background:rgba(255, 255, 255, 0.3) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+    background:#000; filter:Alpha(opacity=30);/*实现IE背景透明*/
+    background: rgb(255, 255, 255); 
+    margin: -100px auto auto; 
+    border: 1px solid rgb(231, 231, 231);
+    border-image:none;width:400px;
+    text-align: center;
+}
+.loginClass{
+    height: 70px;
+    padding-top: 20px;
+}
+.hr1{
+    margin-left:10%;
+    width:25%;
+    float: left;
+}
+.loginSpan{
+    width:40%;
+    height:50px;
+    line-height: 50px;
+    font-size: 24px;
+}
+.hr2{
+    margin-right:10%;
+    width:25%;
+    float: right;
+}
+.transparent input{
+    width:60%;
+}
+.hr3{
+    margin-left:10%;
+    width:25%;
+    float: left;
+}
+.transparent button{
+    width:25%;
+    font-size: 18px;
+}
+.hr4{
+    margin-right:10%;
+    width:25%;
+    float: right;
+}
+.nav{
+    height: 75px;
+    border-bottom: 1px solid grey;
+    color:grey;
+    width: 1680px;
+    margin: 0 auto;
+}
+.nav div{
+    float:left;
+    width:15.5%;
+    height: 30px;
+    line-height: 30px;
+}
+.helloDiv{
+    margin-top: 50px;
+    height:50px;
+    line-height: 50px;
+    font-size:38px;
+    padding-bottom:15px;
+}

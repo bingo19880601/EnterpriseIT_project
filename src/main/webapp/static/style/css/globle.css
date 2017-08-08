@@ -1,0 +1,61 @@
+/*admin部分样式*/
+.leftContent{
+    width:19%;
+    height:900px;
+    background-color: #00bcd5;
+    float:left;
+}
+.leftContent img{
+    width:70%;
+    height:150px;
+    border:none;
+    margin:0 auto;
+    background-color: #00bcd5;
+}
+.leftNav{
+    margin-top:80px;
+}
+.leftNav ul{
+    margin:0 auto;
+    padding-left:0;
+    font-size:24px;
+    font-weight: bold;
+    height:80px;
+    line-height: 80px;
+    padding-bottom:30px;
+    color:#fff;
+}
+.leftNav ul li{
+    list-style:none;
+    height:80px;
+    line-height: 80px;
+    padding-bottom:30px;
+}
+.leftNav ul li:hover{
+    list-style:none;
+    width:108%;
+    background-color: #fff;
+    background:rgba(0, 0, 0, 0.3) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+    background:#fff; filter:Alpha(opacity=30);/*实现IE背景透明*/
+    height:80px;
+    line-height: 80px;
+    padding-bottom:30px;
+    border-radius: 0 50px 50px 0px;
+}
+.leftNav ul li .selected{
+    list-style:none;
+    width:135%;
+    background-color: #fff;
+    background:rgba(0, 0, 0, 0.3) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+    background:#fff; filter:Alpha(opacity=30);/*实现IE背景透明*/
+    height:80px;
+    line-height: 80px;
+    padding-bottom:30px;
+    border-radius: 0 50px 50px 0px;
+}
+.rightContent{
+    width:80%;
+    height:900px;
+    float: right;
+    background-color: aliceblue;
+}
