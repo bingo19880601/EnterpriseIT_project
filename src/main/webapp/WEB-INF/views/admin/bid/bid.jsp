@@ -216,7 +216,7 @@
                     <th>项目状态:</th>
                     <td>
 	                    <select>
-	                    	<option></option>
+	                    	<option>全部</option>
 	                    	<option>竞标中</option>
 	                    	<option>竞标成功</option>
 	                    	<option>竞标失败</option>
