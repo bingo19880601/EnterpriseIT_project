@@ -11,7 +11,7 @@
             lines : true,
             onClick : function(node) {
                 bidDataGrid.datagrid('load', {
-                    organizationId: node.id
+                    bidId: node.id
                 });
             }
         });
